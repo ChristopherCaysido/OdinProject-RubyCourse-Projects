@@ -1,5 +1,6 @@
 # TODO
 # 1. Account for the cases
+# 2. Take into account spaces 
 
 
 def caesar_cipher(string, offset)
@@ -15,4 +16,4 @@ def caesar_cipher(string, offset)
     str = cipher_message.join
 end
 
-print caesar_cipher('sample',5)
+print caesar_cipher('sample wow',2)
